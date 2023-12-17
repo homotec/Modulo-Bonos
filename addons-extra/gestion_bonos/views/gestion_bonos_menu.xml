@@ -1,0 +1,5 @@
+<odoo>
+   <menuitem id="gestion_bonos_root" name="Gestion Bonos" web_icon="gestion_bonos,static/description/icon.png"/>
+   <menuitem id="gestion_bonos_flmenu" name="Gestion Bonos" parent="gestion_bonos_root"/>
+   <menuitem id="gestion_bonos_coupons_action" name="Bonos" parent="gestion_bonos_flmenu" action="action_coupons"/>
+</odoo>
